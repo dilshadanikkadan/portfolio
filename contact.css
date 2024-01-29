@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    background-color: #FAFAFA;
+    height: 100px;
+
+}
+
+nav .logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    margin-left: 30px;
+    color: #13134B;
+
+}
+nav p{
+    color: #13134B;
+    font-weight: 500;
+}
+nav p:hover{
+    color: black;
+}
+nav a{
+    text-decoration: none;
+
+}
+
+.Content :where(p) {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.btn-dark-outline {
+    /* border: 2px solid #13134B; */
+    background-color: #13134B;
+    color: white;
+}
+
+.btn-dark-outline:hover {
+    background-color: white;
+    color: #13134B;
+    border: 1px solid #13134B;
+}
+
+
+
+.imgWrapper img {
+    max-width: 60%;
+
+}
+
+
+
+.quating{
+    position: relative;
+    height: 50vh;
+    background-color: #F6F6F6;
+}
+.quating p{
+    font-weight: 500;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quating .leftQuating{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 7%;
+    top: 8%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.quating .rightQuating {
+    position: absolute;
+    right: 7%;
+    bottom: 8%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+}
+.footer{
+    min-height: 50vh;
+}
+.footerLogo .mainLogo {
+    margin-top: 15px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    
+}
+.footer .myServiece{
+    font-size: 2rem;
+    margin-top: 70px;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer ul li{
+    margin-top: 7px;
+    font-size: 19px;
+    list-style-type: circle;
+    color: black;
+}
+.footer .watsup,.email,.phone p{
+    font-size: 17px;
+    margin-top: 7px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.sideMenu {
+    position: fixed;
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    top: 0;
+    left: -800px;
+    transition: all 0.5s ease;
+
+}
+
+.logoNew {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    margin-left: 30px;
+    color: #13134B;
+    flex: 2;
+}
+
+.menuContents {
+    flex: 10;
+}
+
+.menuContents p {
+    font-weight: 500;
+    font-size: 19px;
+    color: black;
+}
+.menuContents a{
+    text-decoration: none;
+}
+.logosSection {
+    flex: 8;
+}
+
+.contact .formWrapper{
+    height: 60vh;
+}
+
+.contact input{
+    border: none;
+    border-bottom: 1px solid #13134B;
+}
+.contact input:focus{
+    outline: none;
+    font-size: 15px;
+    
+    border-bottom: 1px solid #13134B;
+}
+.contact .myInfo{
+    background-color: #EBEBEB;
+    height: 60vh;
+}
+.contact .myInfo .watsup,.email,.phone p{
+    font-size: 19px;
+
+}
+.contact .infotalktoUs{
+  margin-left: 20px;
+}
+.contact p{
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.contact label{
+    font-family: 'Roboto Mono', monospace;
+
+}
+.contact .shumitBtn{
+    padding: 12px 22px;
+}
+.contact .titileContact{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+
+}
+.contact .error{
+    background-color: rgba(255, 0, 0, 0.462);
+    padding: 4px 7px;
+    color: red;
+    border-radius: 2px;
+    text-transform: capitalize;
+    opacity: 0;
+}
+.contact .successContainer{
+    opacity: 0;
+    max-width: 200px;
+    background-color: rgba(0, 128, 0, 0.437);
+    padding: 4px 7px;
+    color: green;
+    border-radius: 2px;
+    text-transform: capitalize;
+    
+}
+/* .contact input:focus body{
+    background-color: red;
+    
+} */
+@media (min-width: 768px) {
+    .passion {
+        height: 50vh;
+    }
+    .quating p{
+        font-size: 38px;
+    }
+    .passion .arrowpassion {
+     
+        width: 90px;
+        height: 90px;
+        }
+    
+     
+}

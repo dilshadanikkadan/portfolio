@@ -1,0 +1,308 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+nav {
+    background-color: #FAFAFA;
+    height: 100px;
+
+}
+
+nav .logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    margin-left: 30px;
+    color: #13134B;
+
+}
+nav p{
+    color: #13134B;
+}
+nav a{
+    text-decoration: none;
+
+}
+.Content :where(p) {
+    font-size: 18px;
+    margin-left: 25px;
+}
+
+.btn-dark-outline {
+    /* border: 2px solid #13134B; */
+    background-color: #13134B;
+    color: white;
+}
+
+.btn-dark-outline:hover {
+    background-color: white;
+    color: #13134B;
+    border: 1px solid #13134B;
+}
+
+.into {
+    height: calc(100vh - 100px);
+}
+
+.myName {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 30px;
+}
+
+.info p {
+    font-size: 19px;
+}
+
+.info span {
+    font-size: 20px;
+}
+
+.info p,
+span,
+h3,
+button {
+    margin-left: 50px;
+}
+
+.info button {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.animatied {
+    background-repeat: no-repeat;
+    background-color: red;
+}
+
+.lootiePlayer {
+    width: 400px;
+    height: 400px;
+}
+
+
+
+.sideMenu {
+    position: fixed;
+    height: 100vh;
+    width: 80%;
+    background-color: rgb(245, 245, 245);
+    top: 0;
+    left: -800px;
+    transition: all 0.5s ease;
+
+}
+.sideMenu .menuContents p{
+    color: black;
+}
+.menuContents a{
+    text-decoration: none;
+}
+
+.logoNew {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    margin-left: 30px;
+    color: #13134B;
+    flex: 2;
+}
+
+.menuContents {
+    flex: 10;
+}
+
+.menuContents p {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.logosSection {
+    flex: 8;
+}
+
+.aboutMe {
+    /* height: 80vh; */
+}
+
+.imgWrapper img {
+    max-width: 60%;
+    -webkit-mask-image: url(images/svg.png);
+    -webkit-mask-size: contain;
+    -webkit-mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.AboutInfo h3 {
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+
+
+}
+
+.AboutInfo p {
+    font-weight: lighter;
+    margin-left: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.AboutInfo button {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+.myProject h3 {
+    
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+
+}
+
+.myProject p{
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+.ProjectWrapper .one,
+.two,
+.three {
+   flex: 1;
+    border-radius: 7px;
+    max-height: 30vh;
+    margin-top: 20px;
+}
+
+.one {
+    background: url(images/project1.PNG);
+    height: 100vh;
+    transition:all 1s ease ;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.one:hover{
+    flex: 5;
+}
+
+.two {
+    background: url(images/project3.PNG);
+    background-repeat: no-repeat;
+    height: 100vh;
+    transition:all 1s ease ;
+    
+
+}
+.one:hover{
+    flex: 3;
+    
+}
+.two:hover{
+    flex: 3;
+}
+.three:hover{
+    flex: 3;
+}
+.three {
+    background: url(images/project1.PNG);
+    height: 100vh;
+    transition:all 1s ease ;
+    background-repeat: no-repeat;
+
+}
+
+
+.mySkill h3{
+    font-size: 40px;
+    font-family: 'Viga', sans-serif;
+}
+.boxWrapper{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 10px 12px 17px -9px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.boxWrapper:hover{
+    scale: 1.3;
+}
+.boxWrapper img{
+    width: 60px;
+    height: 60px;
+}
+.quating{
+    position: relative;
+    height: 50vh;
+    background-color: #F6F6F6;
+}
+.quating p{
+    font-weight: 500;
+    font-size: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.quating .leftQuating{
+    transform: rotate(180deg);
+    position: absolute;
+    left: 7%;
+    top: 8%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+.quating .rightQuating {
+    position: absolute;
+    right: 7%;
+    bottom: 8%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+}
+.footer{
+    min-height: 50vh;
+}
+.footerLogo .mainLogo {
+    margin-top: 15px;
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    
+}
+.footer .myServiece{
+    font-size: 2rem;
+    margin-top: 70px;
+}
+.footer ul li{
+    margin-top: 7px;
+    font-size: 19px;
+    list-style-type: circle;
+}
+.footer .watsup,.email,.phone p{
+    font-size: 17px;
+    margin-top: 7px;
+    font-family: 'Inter', sans-serif;
+
+}
+.skillCover img{
+    object-fit: cover;
+}
+@media (min-width: 768px) {
+    .lootiePlayer {
+        width: 500px;
+        height: 500px;
+    }
+
+    .myName {
+        font-size: 50px;
+    }
+    .ProjectWrapper .one,
+.two,
+.three {
+   flex: 1;
+  
+    max-height: 80vh;
+    margin-top: 0px;
+}
+    .quating p{
+        font-size: 38px;
+    }
+
+}
