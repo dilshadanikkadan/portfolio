@@ -42,7 +42,7 @@ nav a{
 }
 
 .into {
-    height: calc(100vh - 100px);
+    height: calc(150vh - 100px);
 }
 
 .myName {
@@ -122,6 +122,7 @@ button {
 
 .aboutMe {
     /* height: 80vh; */
+    margin-top: 50px;
 }
 
 .imgWrapper img {
@@ -284,6 +285,16 @@ button {
 .skillCover img{
     object-fit: cover;
 }
+
+.boxCard{
+    height: 110px !important;
+}
+/* .boxCard img{
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+} */
+
 @media (min-width: 768px) {
     .lootiePlayer {
         width: 500px;
@@ -304,5 +315,10 @@ button {
     .quating p{
         font-size: 38px;
     }
+
+    .into {
+        height: calc(100vh - 100px);
+    }
+    
 
 }
