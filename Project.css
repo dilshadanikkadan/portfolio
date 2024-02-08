@@ -45,7 +45,7 @@ nav a{
 }
 
 .passion .headerPassion {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     font-family: 'Roboto Mono', monospace;
 }
@@ -57,8 +57,8 @@ nav a{
 .passion .arrowpassion {
     top: 0;
     left: 0;
-    width: 70px;
-    height: 70px;
+    width: 55px;
+    height: 55px;
     position: absolute;
 }
 
@@ -253,5 +253,8 @@ nav a{
         bottom: 20px;
     }
 
-
+    .passion .headerPassion {
+        font-size: 30px;
+ 
+    }
 }
